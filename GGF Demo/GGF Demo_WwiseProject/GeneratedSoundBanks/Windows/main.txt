@@ -1,0 +1,26 @@
+Event	ID	Name			Wwise Object Path	Notes
+	595748461	Play_doublejump			\Default Work Unit\Play_doublejump	
+	1445354741	heal_player			\Default Work Unit\heal_player	
+	1719332078	hurt_player			\Default Work Unit\hurt_player	
+	1758594367	map_loaded			\Default Work Unit\map_loaded	
+	2211787386	Play_dash			\Default Work Unit\Play_dash	
+	2431176228	Play_dive			\Default Work Unit\Play_dive	
+	3689126666	Play_jump			\Default Work Unit\Play_jump	
+	3705726509	title			\Default Work Unit\title	
+	3715669161	Play_slide			\Default Work Unit\Play_slide	
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	849451760	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\silence\Wwise Silence	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	42486079	dash	E:\ggj\Code\GGF Demo\GGF Demo_WwiseProject\.cache\Windows\SFX\dash_BD541F61.wem		\Actor-Mixer Hierarchy\Default Work Unit\dash		97862
+	62517200	hurt4	E:\ggj\Code\GGF Demo\GGF Demo_WwiseProject\.cache\Windows\SFX\hurt\hurt4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\hurt\hurt4		20894
+	188664125	dive	E:\ggj\Code\GGF Demo\GGF Demo_WwiseProject\.cache\Windows\SFX\dive_46C6E491.wem		\Actor-Mixer Hierarchy\Default Work Unit\dive		143300
+	477284736	hurt2	E:\ggj\Code\GGF Demo\GGF Demo_WwiseProject\.cache\Windows\SFX\hurt\hurt2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\hurt\hurt2		10526
+	479150623	hurt1	E:\ggj\Code\GGF Demo\GGF Demo_WwiseProject\.cache\Windows\SFX\hurt\hurt1_AF95FAD8.wem		\Actor-Mixer Hierarchy\Default Work Unit\hurt\hurt1		38072
+	505858851	slide	E:\ggj\Code\GGF Demo\GGF Demo_WwiseProject\.cache\Windows\SFX\slide_40592560.wem		\Actor-Mixer Hierarchy\Default Work Unit\slide		143172
+	753088082	hurt3	E:\ggj\Code\GGF Demo\GGF Demo_WwiseProject\.cache\Windows\SFX\hurt\hurt3_EEC6FCEA.wem		\Actor-Mixer Hierarchy\Default Work Unit\hurt\hurt3		47782
+	768181756	thememusic	E:\ggj\Code\GGF Demo\GGF Demo_WwiseProject\.cache\Windows\SFX\thememusic_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\thememusic		30948528
+	934073214	jump	E:\ggj\Code\GGF Demo\GGF Demo_WwiseProject\.cache\Windows\SFX\jump_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\jump		39360
+	1004705755	heal	E:\ggj\Code\GGF Demo\GGF Demo_WwiseProject\.cache\Windows\SFX\heal_B1F7A022.wem		\Actor-Mixer Hierarchy\Default Work Unit\heal		103092
+

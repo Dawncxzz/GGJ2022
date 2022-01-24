@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77d15c88c07980f4b98fce1613496454, type: 3}
+  m_Name: 8B3BF0CC-599F-4EEF-A7CC-F52CEC5F0924
+  m_EditorClassIdentifier: 
+  objectName: hurt_player
+  id: 1719332078
+  guid: 8B3BF0CC-599F-4EEF-A7CC-F52CEC5F0924

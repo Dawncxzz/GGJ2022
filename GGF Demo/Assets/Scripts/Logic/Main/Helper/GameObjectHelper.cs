@@ -1,0 +1,17 @@
+﻿using UnityEngine;
+
+namespace Logic
+{
+    public static class GameObjectHelper
+    {
+        public static T GetOrAddComponent<T>(this GameObject go) where T : MonoBehaviour
+        {
+            T component = go.GetComponent<T>();
+            if (component == null)
+            {
+                component = go.AddComponent<T>();
+            }
+            return component;
+        }
+    }
+}

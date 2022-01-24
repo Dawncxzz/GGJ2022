@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Android" BasePlatform="Android" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>E:\ggj\Code\GGF Demo\GGF Demo_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>E:\ggj\Code\GGF Demo\GGF Demo_WwiseProject\.cache\Android\</SourceFilesRoot>
+		<SoundBanksRoot>E:\ggj\Code\GGF Demo\GGF Demo_WwiseProject\GeneratedSoundBanks\Android\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>E:\ggj\Code\GGF Demo\GGF Demo_WwiseProject\GeneratedSoundBanks\Android</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="1889240115">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3161908922" Language="SFX" Hash="1224916853">
+			<ObjectPath>\SoundBanks\Default Work Unit\main</ObjectPath>
+			<ShortName>main</ShortName>
+			<Path>main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1445354741" Name="heal_player" ObjectPath="\Events\Default Work Unit\heal_player" DurationType="OneShot" DurationMin="1.168120" DurationMax="1.168120">
+					<IncludedMemoryFiles>
+						<File Id="1004705755" Language="SFX">
+							<ShortName>heal.wav</ShortName>
+							<Path>SFX\heal_B1F7A022.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1719332078" Name="hurt_player" ObjectPath="\Events\Default Work Unit\hurt_player" DurationType="OneShot" DurationMin="0.236168" DurationMax="0.541027">
+					<IncludedMemoryFiles>
+						<File Id="62517200" Language="SFX">
+							<ShortName>hurt\hurt4.wav</ShortName>
+							<Path>SFX\hurt\hurt4_10C4C929.wem</Path>
+						</File>
+						<File Id="477284736" Language="SFX">
+							<ShortName>hurt\hurt2.wav</ShortName>
+							<Path>SFX\hurt\hurt2_10C4C929.wem</Path>
+						</File>
+						<File Id="479150623" Language="SFX">
+							<ShortName>hurt\hurt1.wav</ShortName>
+							<Path>SFX\hurt\hurt1_AF95FAD8.wem</Path>
+						</File>
+						<File Id="753088082" Language="SFX">
+							<ShortName>hurt\hurt3.wav</ShortName>
+							<Path>SFX\hurt\hurt3_EEC6FCEA.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1758594367" Name="map_loaded" ObjectPath="\Events\Default Work Unit\map_loaded" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="768181756" Language="SFX">
+							<ShortName>thememusic.wav</ShortName>
+							<Path>SFX\thememusic_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2211787386" Name="Play_dash" ObjectPath="\Events\Default Work Unit\Play_dash" DurationType="OneShot" DurationMin="0.959718" DurationMax="0.959718">
+					<IncludedMemoryFiles>
+						<File Id="42486079" Language="SFX">
+							<ShortName>dash.wav</ShortName>
+							<Path>SFX\dash_BD541F61.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2431176228" Name="Play_dive" ObjectPath="\Events\Default Work Unit\Play_dive" DurationType="OneShot" DurationMin="1.083884" DurationMax="1.083884">
+					<IncludedMemoryFiles>
+						<File Id="188664125" Language="SFX">
+							<ShortName>dive.wav</ShortName>
+							<Path>SFX\dive_46C6E491.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="595748461" Name="Play_doublejump" ObjectPath="\Events\Default Work Unit\Play_doublejump" DurationType="OneShot" DurationMin="0.250047" DurationMax="0.250047">
+					<IncludedMemoryFiles>
+						<File Id="934073214" Language="SFX">
+							<ShortName>jump.wav</ShortName>
+							<Path>SFX\jump_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3689126666" Name="Play_jump" ObjectPath="\Events\Default Work Unit\Play_jump" DurationType="OneShot" DurationMin="0.445533" DurationMax="0.445533">
+					<IncludedMemoryFiles>
+						<File Id="934073214" Language="SFX">
+							<ShortName>jump.wav</ShortName>
+							<Path>SFX\jump_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3715669161" Name="Play_slide" ObjectPath="\Events\Default Work Unit\Play_slide" DurationType="OneShot" DurationMin="0.811258" DurationMax="0.811258">
+					<IncludedMemoryFiles>
+						<File Id="505858851" Language="SFX">
+							<ShortName>slide.wav</ShortName>
+							<Path>SFX\slide_40592560.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3705726509" Name="title" ObjectPath="\Events\Default Work Unit\title" DurationType="OneShot" DurationMin="1.000000" DurationMax="1.000000"/>
+			</IncludedEvents>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

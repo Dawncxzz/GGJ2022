@@ -1,0 +1,306 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7956057819715164762
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5dcd43e8c04dfe547bacabd71c7f42db, type: 3}
+  m_Name: CutsceneVolume
+  m_EditorClassIdentifier: 
+  active: 1
+  m_AdvancedMode: 0
+  mode:
+    m_OverrideState: 0
+    m_Value: 0
+  _FLIPOVER_Width:
+    m_OverrideState: 1
+    m_Value: 0
+    min: 0
+  _FLIPOVER_Progress:
+    m_OverrideState: 1
+    m_Value: 0
+    min: 0
+    max: 1
+  _CLOCKWIPE_Width:
+    m_OverrideState: 1
+    m_Value: 0
+    min: 0
+    max: 1
+  _CLOCKWIPE_Blend:
+    m_OverrideState: 1
+    m_Value: 0
+    min: 0
+    max: 7
+  _GRAYSCALE_Value:
+    m_OverrideState: 1
+    m_Value: 0
+    min: 0
+    max: 1
+  _DENSEFOG1_MainTex:
+    m_OverrideState: 1
+    m_Value: {fileID: 0}
+  _DENSEFOG1_FlowMapTex:
+    m_OverrideState: 1
+    m_Value: {fileID: 0}
+  _DENSEFOG1_Offset:
+    m_OverrideState: 1
+    m_Value: 0
+    min: 0.01
+    max: 1
+  _DENSEFOG1_Speed:
+    m_OverrideState: 1
+    m_Value: 0
+    min: 0
+  _DENSEFOG1_Intensity:
+    m_OverrideState: 1
+    m_Value: 0
+    min: 0
+  _DENSEFOG2_Mask:
+    m_OverrideState: 1
+    m_Value: {fileID: 0}
+  _DENSEFOG2_Noise:
+    m_OverrideState: 1
+    m_Value: {fileID: 0}
+  _DENSEFOG2_Noise1Params:
+    m_OverrideState: 1
+    m_Value: {x: 0, y: 0, z: 0}
+  _DENSEFOG2_Noise2Params:
+    m_OverrideState: 1
+    m_Value: {x: 0, y: 0, z: 0}
+  _DENSEFOG2_Color1:
+    m_OverrideState: 1
+    m_Value: {r: 0, g: 0, b: 0, a: 1}
+    hdr: 0
+    showAlpha: 1
+    showEyeDropper: 1
+  _DENSEFOG2_Color2:
+    m_OverrideState: 1
+    m_Value: {r: 1, g: 1, b: 1, a: 1}
+    hdr: 0
+    showAlpha: 1
+    showEyeDropper: 1
+--- !u!114 &-3278823249415346285
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5dcd43e8c04dfe547bacabd71c7f42db, type: 3}
+  m_Name: CutsceneVolume
+  m_EditorClassIdentifier: 
+  active: 1
+  m_AdvancedMode: 0
+  mode:
+    m_OverrideState: 1
+    m_Value: 20
+  _FLIPOVER_Width:
+    m_OverrideState: 1
+    m_Value: 0.15
+    min: 0
+  _FLIPOVER_Progress:
+    m_OverrideState: 1
+    m_Value: 0
+    min: 0
+    max: 1
+  _CLOCKWIPE_Width:
+    m_OverrideState: 1
+    m_Value: 0.293
+    min: 0
+    max: 1
+  _CLOCKWIPE_Blend:
+    m_OverrideState: 1
+    m_Value: 3.27
+    min: 0
+    max: 7
+  _GRAYSCALE_Value:
+    m_OverrideState: 1
+    m_Value: 1
+    min: 0
+    max: 1
+  _DENSEFOG1_MainTex:
+    m_OverrideState: 1
+    m_Value: {fileID: 2800000, guid: 44474bb507065554f876b326d3ecdb25, type: 3}
+  _DENSEFOG1_FlowMapTex:
+    m_OverrideState: 1
+    m_Value: {fileID: 2800000, guid: a5a3b5c9c03d7fa45a527e9305c14555, type: 3}
+  _DENSEFOG1_Offset:
+    m_OverrideState: 1
+    m_Value: 0.376
+    min: 0.01
+    max: 1
+  _DENSEFOG1_Speed:
+    m_OverrideState: 1
+    m_Value: 3.98
+    min: 0
+  _DENSEFOG1_Intensity:
+    m_OverrideState: 1
+    m_Value: 1
+    min: 0
+  _DENSEFOG2_Mask:
+    m_OverrideState: 1
+    m_Value: {fileID: 2800000, guid: 8eb6dd7a0861d5940824d843995afd80, type: 3}
+  _DENSEFOG2_Noise:
+    m_OverrideState: 1
+    m_Value: {fileID: 2800000, guid: efd7a9b8c1eab4a4686377fe0100e854, type: 3}
+  _DENSEFOG2_Noise1Params:
+    m_OverrideState: 1
+    m_Value: {x: 1.02, y: 2.56, z: 0.11}
+  _DENSEFOG2_Noise2Params:
+    m_OverrideState: 1
+    m_Value: {x: 2.22, y: 2.72, z: 0.06}
+  _DENSEFOG2_Color1:
+    m_OverrideState: 1
+    m_Value: {r: 1, g: 0.033018887, b: 0.033018887, a: 1}
+    hdr: 0
+    showAlpha: 1
+    showEyeDropper: 1
+  _DENSEFOG2_Color2:
+    m_OverrideState: 1
+    m_Value: {r: 0, g: 0.51824737, b: 1, a: 1}
+    hdr: 0
+    showAlpha: 1
+    showEyeDropper: 1
+--- !u!114 &-401017777883741957
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cf8fff12811efb48b7c3d27ab1a0d24, type: 3}
+  m_Name: GhostEffectVolume
+  m_EditorClassIdentifier: 
+  active: 1
+  m_AdvancedMode: 0
+  mode:
+    m_OverrideState: 1
+    m_Value: 0
+  _PLAYER_Width:
+    m_OverrideState: 1
+    m_Value: 0
+    min: 0
+  _PLAYER_Progress:
+    m_OverrideState: 1
+    m_Value: 0
+    min: 0
+    max: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7fd9488000d3734a9e00ee676215985, type: 3}
+  m_Name: Global Volume Profile
+  m_EditorClassIdentifier: 
+  components:
+  - {fileID: -3278823249415346285}
+  - {fileID: 7964289898324423628}
+  - {fileID: -401017777883741957}
+--- !u!114 &3665039222852975949
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b2db86121404754db890f4c8dfe81b2, type: 3}
+  m_Name: Bloom
+  m_EditorClassIdentifier: 
+  active: 1
+  m_AdvancedMode: 0
+  threshold:
+    m_OverrideState: 0
+    m_Value: 0.9
+    min: 0
+  intensity:
+    m_OverrideState: 0
+    m_Value: 0
+    min: 0
+  scatter:
+    m_OverrideState: 0
+    m_Value: 0.7
+    min: 0
+    max: 1
+  clamp:
+    m_OverrideState: 0
+    m_Value: 65472
+    min: 0
+  tint:
+    m_OverrideState: 0
+    m_Value: {r: 1, g: 1, b: 1, a: 1}
+    hdr: 0
+    showAlpha: 0
+    showEyeDropper: 1
+  highQualityFiltering:
+    m_OverrideState: 0
+    m_Value: 0
+  dirtTexture:
+    m_OverrideState: 0
+    m_Value: {fileID: 0}
+  dirtIntensity:
+    m_OverrideState: 0
+    m_Value: 0
+    min: 0
+--- !u!114 &7964289898324423628
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b2db86121404754db890f4c8dfe81b2, type: 3}
+  m_Name: Bloom
+  m_EditorClassIdentifier: 
+  active: 1
+  m_AdvancedMode: 0
+  threshold:
+    m_OverrideState: 1
+    m_Value: 0.98
+    min: 0
+  intensity:
+    m_OverrideState: 1
+    m_Value: 10
+    min: 0
+  scatter:
+    m_OverrideState: 1
+    m_Value: 0
+    min: 0
+    max: 1
+  clamp:
+    m_OverrideState: 1
+    m_Value: 65472
+    min: 0
+  tint:
+    m_OverrideState: 1
+    m_Value: {r: 1, g: 1, b: 1, a: 1}
+    hdr: 0
+    showAlpha: 0
+    showEyeDropper: 1
+  highQualityFiltering:
+    m_OverrideState: 1
+    m_Value: 0
+  dirtTexture:
+    m_OverrideState: 1
+    m_Value: {fileID: 0}
+  dirtIntensity:
+    m_OverrideState: 1
+    m_Value: 0
+    min: 0

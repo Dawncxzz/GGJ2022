@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7998A703-E9B4-4664-9D50-F82A9CF4765D}" SchemaVersion="103">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{7998A703-E9B4-4664-9D50-F82A9CF4765D}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="main" ID="{6D6256B6-07E9-459D-B3FD-34550770C275}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_dash" ID="{87C439B8-1DFB-4019-8D43-B1F242EFD3A3}" WorkUnitID="{934C52C3-0D65-4824-81C8-E70CF8482864}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="title" ID="{17122CC6-C6DB-40A8-8CA3-7F6DA56ACDF6}" WorkUnitID="{934C52C3-0D65-4824-81C8-E70CF8482864}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_jump" ID="{F57E147C-3278-41D3-A458-C3C927446BB4}" WorkUnitID="{934C52C3-0D65-4824-81C8-E70CF8482864}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_doublejump" ID="{E902FDA0-E668-4740-B9E5-94F6D404CDC0}" WorkUnitID="{934C52C3-0D65-4824-81C8-E70CF8482864}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_slide" ID="{1E757805-8019-4840-8CE2-C00E0101B7AD}" WorkUnitID="{934C52C3-0D65-4824-81C8-E70CF8482864}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_dive" ID="{6D7CFA3F-4DBB-491A-AB6A-43147114F11E}" WorkUnitID="{934C52C3-0D65-4824-81C8-E70CF8482864}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="heal_player" ID="{17CF44F0-24B1-4B1B-87B2-0BF270C501BA}" WorkUnitID="{934C52C3-0D65-4824-81C8-E70CF8482864}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="map_loaded" ID="{DB4D8285-B85D-4CFA-92F2-9771B9CD947B}" WorkUnitID="{934C52C3-0D65-4824-81C8-E70CF8482864}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hurt_player" ID="{8B3BF0CC-599F-4EEF-A7CC-F52CEC5F0924}" WorkUnitID="{934C52C3-0D65-4824-81C8-E70CF8482864}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

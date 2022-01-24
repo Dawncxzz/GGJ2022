@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "d39d5599-ea82-92e6-8c16-9e122e8e8385": {
+      "ProjectGuid": "d39d5599-ea82-92e6-8c16-9e122e8e8385",
+      "DisplayName": "Assembly-CSharp",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "杂项文件",
+      "ColorIndex": -1
+    },
+    "b0ed53e0-a3ac-d25b-4232-0e784562a4d4": {
+      "ProjectGuid": "b0ed53e0-a3ac-d25b-4232-0e784562a4d4",
+      "DisplayName": "Unity.RenderPipelines.Core.Runtime",
+      "ColorIndex": 1
+    },
+    "d7d758db-1b31-f41c-6b96-ec5f7c311cb6": {
+      "ProjectGuid": "d7d758db-1b31-f41c-6b96-ec5f7c311cb6",
+      "DisplayName": "AK.Wwise.Unity.MonoBehaviour",
+      "ColorIndex": 2
+    },
+    "66de4530-5ccd-a6d8-d660-863224083916": {
+      "ProjectGuid": "66de4530-5ccd-a6d8-d660-863224083916",
+      "DisplayName": "PsdPlugin",
+      "ColorIndex": 3
+    },
+    "ff2cfab8-93dc-0583-546a-fcc88e24fec1": {
+      "ProjectGuid": "ff2cfab8-93dc-0583-546a-fcc88e24fec1",
+      "DisplayName": "Unity.ShaderGraph.Editor",
+      "ColorIndex": 4
+    },
+    "d781ff63-0731-37b2-bc1b-0b5535d7e3dd": {
+      "ProjectGuid": "d781ff63-0731-37b2-bc1b-0b5535d7e3dd",
+      "DisplayName": "Assembly-CSharp-Editor",
+      "ColorIndex": 5
+    }
+  },
+  "NextColorIndex": 6
+}

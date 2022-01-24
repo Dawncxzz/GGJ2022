@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-2290000243583823126
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5dcd43e8c04dfe547bacabd71c7f42db, type: 3}
+  m_Name: CutsceneVolume
+  m_EditorClassIdentifier: 
+  active: 1
+  m_AdvancedMode: 0
+  mode:
+    m_OverrideState: 1
+    m_Value: 20
+  _FLIPOVER_Width:
+    m_OverrideState: 1
+    m_Value: 0
+    min: 0
+  _FLIPOVER_Progress:
+    m_OverrideState: 1
+    m_Value: 0
+    min: 0
+    max: 1
+  _CLOCKWIPE_Width:
+    m_OverrideState: 1
+    m_Value: 0
+    min: 0
+    max: 1
+  _CLOCKWIPE_Blend:
+    m_OverrideState: 1
+    m_Value: 0
+    min: 0
+    max: 7
+  _GRAYSCALE_Value:
+    m_OverrideState: 1
+    m_Value: 0
+    min: 0
+    max: 1
+  _DENSEFOG_ColorTex:
+    m_OverrideState: 1
+    m_Value: {fileID: 2800000, guid: af08cb94f23ce394b923418dbf8cd828, type: 3}
+  _DENSEFOG_NoiseTex:
+    m_OverrideState: 1
+    m_Value: {fileID: 2800000, guid: a5a3b5c9c03d7fa45a527e9305c14555, type: 3}
+  _DENSEFOG_Intensity:
+    m_OverrideState: 1
+    m_Value: 0.93
+    min: 0
+    max: 1
+  _DENSEFOG_Offset:
+    m_OverrideState: 1
+    m_Value: 0.309
+    min: 0
+    max: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7fd9488000d3734a9e00ee676215985, type: 3}
+  m_Name: Global Volume Profile 1
+  m_EditorClassIdentifier: 
+  components:
+  - {fileID: -2290000243583823126}
